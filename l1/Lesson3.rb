@@ -21,24 +21,22 @@ checktr(s1, s2, s3)
 
 
 
-max=[s1, s2, s3].max(2)
-min=[s1, s2, s3].min(2)
+max=[s1, s2, s3].max
+min=[s1, s2, s3].min
 puts max
 min1=min[0]
 min2=min[1]
 
 
 if max**2 == min1**2 + min2**2
-
-	puts "treug is pryamoyg"
+  puts "treug is pryamoyg"
 else
-
-	if 	max == min1 && max == min2
-		puts "treug is ravnost"
-	elsif max == min1 ||  max==min2 || min1 == min2
-		puts "treug is ravnobedrenn"
-	else
+  if 	max == min1 && max == min2
+    puts "treug is ravnost"
+  elsif max == min1 ||  max==min2 || min1 == min2
+	puts "treug is ravnobedrenn"
+  else
 		puts "treug is common"
-	end    
+  end    
 end
 

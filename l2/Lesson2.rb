@@ -1,9 +1,25 @@
-puts "Enter height of triangle"
-h=gets.chomp.to_i
+arr = []
 
-puts "Enter base of triangle"
-a=gets.chomp.to_i
+10.upto(100) do |i|  
+  if i%5 == 0
+    arr << i
+  end
+end
 
-s=(a*h)*0.5
+print arr
 
-puts "Square of triangle is #{s}"
+#############################
+
+arr = (10..100).to_a
+arr.delete_if {|x| x%5!=0}
+
+print arr
+
+################################
+arr = (10..100).to_a
+
+arr.each do |x|
+  if x%5 == 0
+    print "#{x}\t"
+  end
+end
