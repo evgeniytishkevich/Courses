@@ -12,7 +12,6 @@ print arr
 
 arr = (10..100).to_a
 arr.delete_if {|x| x%5!=0}
-
 print arr
 
 ################################

@@ -1,7 +1,7 @@
-puts "Enter ur name"
-name=gets.chomp
+puts "Echomp
 
-puts "Enter ur height"
+puts "Enternter ur name"
+name=gets. ur height"
 height=gets.to_i
 
 ideal_weight = (height -110)*1.15
