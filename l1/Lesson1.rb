@@ -10,4 +10,6 @@ if ideal_weight>0
   puts "#{name}, ur ideal weight is #{ideal_weight} kg"
 else
   puts "Ur weight is normal"
-end
+end 
+
+#end
